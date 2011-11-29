@@ -11,13 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111129145352) do
+ActiveRecord::Schema.define(:version => 20111129160159) do
 
   create_table "users", :force => true do |t|
     t.integer  "doorkeeper_uid"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "doorkeeper_access_token"
+    t.string   "email"
   end
 
 end
