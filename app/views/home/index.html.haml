@@ -8,7 +8,7 @@
         %h2 Explore the api
         .well
           = link_to "My Credentials", explore_api_path(:me, :format => :json), :class => "btn", "data-explore" => []
-          = link_to "Profiles", explore_api_path(:me, :format => :json), :class => "btn", "data-explore" => []
+          = link_to "Profiles", explore_api_path(:profiles, :format => :json), :class => "btn", "data-explore" => []
           = link_to "Sign out", destroy_user_session_path, :class => "btn primary"
 
         %p
