@@ -1,3 +1,4 @@
+require File.expand_path('lib/omniauth/strategies/doorkeeper', Rails.root)
 # Use this hook to configure devise mailer, warden hooks and so forth. The first
 # four configuration values can also be set straight in your models.
 Devise.setup do |config|
@@ -196,7 +197,7 @@ Devise.setup do |config|
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
-  # config.omniauth :github, 'APP_ID', 'APP_SECRET', :scope => 'user,public_repo'
+  config.omniauth :doorkeeper,  DOORKEEPER_APP_ID, DOORKEEPER_APP_SECRET, :client_options =>  {:site => DOORKEEPER_APP_URL}
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or

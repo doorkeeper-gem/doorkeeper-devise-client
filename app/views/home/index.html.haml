@@ -1,1 +1,9 @@
-%p Index
+- if current_user
+  %p
+    You are logged in as user with doorkeeper id
+    = current_user.doorkeeper_uid
+    = link_to "Log out", destroy_user_session_path
+- else
+  %p
+    You are not logged in
+    = link_to "Log in with doorkeeper provider", user_omniauth_authorize_path(:doorkeeper)

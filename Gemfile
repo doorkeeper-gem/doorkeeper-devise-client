@@ -8,6 +8,7 @@ gem 'rails', '3.1.3'
 gem 'sqlite3'
 gem 'devise'
 gem 'omniauth'
+gem 'omniauth-oauth2'
 gem 'haml-rails'
 
 
@@ -37,3 +38,4 @@ group :test do
   # Pretty printed test output
   gem 'turn', '~> 0.8.3', :require => false
 end
+
