@@ -1,9 +1,17 @@
-- if current_user
-  %p
-    You are logged in as user with doorkeeper id
-    = current_user.doorkeeper_uid
-    = link_to "Log out", destroy_user_session_path
-- else
-  %p
-    You are not logged in
-    = link_to "Log in with doorkeeper provider", user_omniauth_authorize_path(:doorkeeper)
+%section
+  .row
+    .span16
+      - unless signed_in?
+        %h3 Sign in first to explore the provider's API
+        %p= link_to "Sign in with OAuth 2 provider", user_omniauth_authorize_path(:doorkeeper), :class => "btn primary"
+      - else
+        %h2 Explore the api
+        .well
+          = link_to "My Credentials", explore_api_path(:me, :format => :json), :class => "btn", "data-explore" => []
+          = link_to "Profiles", explore_api_path(:me, :format => :json), :class => "btn", "data-explore" => []
+          = link_to "Sign out", destroy_user_session_path, :class => "btn primary"
+
+        %p
+          %pre#display-json
+            Select one of the api methods above
+
