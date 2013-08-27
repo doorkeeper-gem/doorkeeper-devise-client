@@ -32,7 +32,7 @@ And migrate the databse
 
 At this point the application should be ready to run, but it won't
 communicate correctly with the provider. You need to set up environment
-variables to indicate the oauth2 provider values. In your environemnt
+variables to indicate the oauth2 provider values. In your environment
 file set up these variables
 
     DOORKEEPER_APP_ID = "375c2e3fd..." # ID for your app registered at the provider
