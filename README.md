@@ -1,4 +1,4 @@
-# Dookreeper Devise+Omniauth Client
+# Doorkeeper Devise+Omniauth Client
 
 This app is an example of OAuth2 client. It was built in order to test
 the [doorkeeper provider example](http://doorkeeper-provider.herokuapp.com/).
