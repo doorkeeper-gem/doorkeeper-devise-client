@@ -1,48 +1,24 @@
-source 'http://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rails', '3.1.3'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Bundle edge Rails instead:
-# gem 'rails',     :git => 'git://github.com/rails/rails.git'
+ruby "2.5.3"
 
-gem 'devise'
-gem 'omniauth'
-gem 'omniauth-oauth2'
-gem 'haml-rails'
+gem "listen"
+gem "puma", "~> 3.11"
+gem "rails", "~> 5.2"
+gem "sass-rails", "~> 5.0"
+gem "uglifier", ">= 1.3.0"
 
-
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.1.5'
-  gem 'coffee-rails', '~> 3.1.1'
-  gem 'uglifier', '>= 1.0.3'
-end
-
-gem 'jquery-rails'
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# Use unicorn as the web server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'ruby-debug19', :require => 'ruby-debug'
-
-group :test do
-  # Pretty printed test output
-  gem 'turn', '~> 0.8.3', :require => false
-end
+gem "devise", "~> 4.6"
+gem "omniauth-oauth2", "~> 1.6"
 
 group :development do
-  gem 'sqlite3'
+  gem "dotenv-rails"
+  gem "rubocop-rails_config"
 end
 
-group :production do
-  gem 'pg'
-  gem 'thin'
+group :development, :test do
+  gem "pry-byebug"
+  gem "sqlite3", "~> 1.3.6"
 end

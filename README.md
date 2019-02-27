@@ -26,14 +26,14 @@ Install all the gems
 
     bundle install
 
-And migrate the databse
+And migrate the database
 
-    rake db:migrate
+    bundle exec rake db:migrate
 
 At this point the application should be ready to run, but it won't
 communicate correctly with the provider. You need to set up environment
-variables to indicate the oauth2 provider values. In your environment
-file set up these variables
+variables to indicate the oauth2 provider values. In your
+`.env` file, setup these variables
 
     DOORKEEPER_APP_ID = "375c2e3fd..." # ID for your app registered at the provider
     DOORKEEPER_APP_SECRET = "6a2fa82ab..." # Secret
@@ -42,13 +42,9 @@ file set up these variables
 If you want to test it out you can use our sample provider using
 [doorkeeper](http://github.com/applicake/doorkeeper) gem. It's available
 [here](http://doorkeeper-provider.herokuapp.com). In order to add your
-application and get your appication ID and SECRET [click
+application and get your application ID and SECRET [click
 here](http://doorkeeper-provider.herokuapp.com/oauth/application/new).
 
 Now you are ready to start the app
 
-    rails s
-
-
-
-
+    bundle exec rails s

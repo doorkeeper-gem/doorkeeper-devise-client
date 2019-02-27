@@ -1,0 +1,9 @@
+inherit_gem:
+  rubocop-rails_config:
+    - config/rails.yml
+
+AllCops:
+  TargetRubyVersion: 2.5.3
+  TargetRailsVersion: 5.2
+
+Style/FrozenStringLiteralComment: { EnforcedStyle: never }
