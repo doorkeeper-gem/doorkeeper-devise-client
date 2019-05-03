@@ -118,7 +118,7 @@ GEM
       byebug (~> 11.0)
       pry (~> 0.10)
     psych (3.1.0)
-    puma (3.12.0)
+    puma (3.12.1)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -210,7 +210,7 @@ DEPENDENCIES
   listen
   omniauth-oauth2 (~> 1.6)
   pry-byebug
-  puma (~> 3.11)
+  puma (~> 3.12)
   rails (~> 5.2)
   rubocop-rails_config
   sass-rails (~> 5.0)
