@@ -1,5 +1,7 @@
 # Doorkeeper Devise+Omniauth Client
 
+[![Build Status](https://semaphoreci.com/api/v1/doorkeeper-gem/doorkeeper-devise-client/branches/master/badge.svg)](https://semaphoreci.com/doorkeeper-gem/doorkeeper-devise-client)
+
 This app is an example of OAuth2 client. It was built in order to test
 the [doorkeeper provider example](http://doorkeeper-provider.herokuapp.com/).
 It uses [rails](http://github.com/rails/rails/), [devise](http://github.com/plataformatec/devise)
