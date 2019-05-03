@@ -261,8 +261,8 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
   config.omniauth :doorkeeper,
-                  ENV.fetch('DOORKEEPER_APP_ID'),
-                  ENV.fetch('DOORKEEPER_APP_SECRET'),
+                  ENV['DOORKEEPER_APP_ID'],
+                  ENV['DOORKEEPER_APP_SECRET'],
                   scope: 'read',
                   strategy_class: OmniAuth::Strategies::Doorkeeper
 
