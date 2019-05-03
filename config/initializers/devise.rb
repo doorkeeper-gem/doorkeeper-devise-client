@@ -263,7 +263,7 @@ Devise.setup do |config|
   config.omniauth :doorkeeper,
                   ENV.fetch('DOORKEEPER_APP_ID'),
                   ENV.fetch('DOORKEEPER_APP_SECRET'),
-                  scope: 'public',
+                  scope: 'read',
                   strategy_class: OmniAuth::Strategies::Doorkeeper
 
   # ==> Warden configuration
