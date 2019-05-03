@@ -12,6 +12,7 @@ gem "uglifier", ">= 1.3.0"
 
 gem "devise", "~> 4.6"
 gem "omniauth-oauth2", "~> 1.6"
+gem "rollbar"
 
 group :development do
   gem "dotenv-rails"

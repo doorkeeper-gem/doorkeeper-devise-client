@@ -152,6 +152,8 @@ GEM
     responders (2.4.1)
       actionpack (>= 4.2.0, < 6.0)
       railties (>= 4.2.0, < 6.0)
+    rollbar (2.19.3)
+      multi_json
     rubocop (0.68.1)
       jaro_winkler (~> 1.5.1)
       parallel (~> 1.10)
@@ -208,6 +210,7 @@ DEPENDENCIES
   pry-byebug
   puma (~> 3.12)
   rails (~> 5.2)
+  rollbar
   rubocop-rails_config
   sass-rails (~> 5.0)
   sqlite3 (~> 1.4.1)
