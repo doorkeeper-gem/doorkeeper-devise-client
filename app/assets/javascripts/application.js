@@ -5,9 +5,8 @@
 $(function () {
   $('.data-explore').click(function () {
     var link = $(this);
-    link.button('loading');
-    $('#display-json').load(link.attr('href'), function () {
-      link.button('reset');
+    $('#display-json').load(link.attr('href'), function (text) {
+      $(this).text(JSON.stringify(JSON.parse(text), null, 2))
     });
     return false;
   });
