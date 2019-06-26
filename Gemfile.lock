@@ -117,7 +117,8 @@ GEM
     pry-byebug (3.7.0)
       byebug (~> 11.0)
       pry (~> 0.10)
-    puma (3.12.1)
+    puma (4.0.0)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -217,7 +218,7 @@ DEPENDENCIES
   omniauth-oauth2 (~> 1.6)
   pg (~> 1.1)
   pry-byebug
-  puma (~> 3.12)
+  puma (~> 4.0)
   rails (~> 5.2)
   rollbar
   rubocop-rails_config
