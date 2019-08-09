@@ -91,7 +91,7 @@ GEM
     multi_json (1.13.1)
     multi_xml (0.6.0)
     multipart-post (2.0.0)
-    nio4r (2.3.1)
+    nio4r (2.4.0)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     oauth2 (1.4.1)
@@ -117,7 +117,7 @@ GEM
     pry-byebug (3.7.0)
       byebug (~> 11.0)
       pry (~> 0.10)
-    puma (4.0.0)
+    puma (4.1.0)
       nio4r (~> 2.0)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -218,7 +218,7 @@ DEPENDENCIES
   omniauth-oauth2 (~> 1.6)
   pg (~> 1.1)
   pry-byebug
-  puma (~> 4.0)
+  puma (~> 4.1)
   rails (~> 5.2)
   rollbar
   rubocop-rails_config
