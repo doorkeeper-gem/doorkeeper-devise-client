@@ -10,7 +10,7 @@ gem "rails", "~> 5.2"
 gem "sass-rails", "~> 5.0"
 gem "uglifier", ">= 1.3.0"
 
-gem "devise", "~> 4.6"
+gem "devise", "~> 4.7"
 gem "omniauth-oauth2", "~> 1.6"
 gem "rollbar"
 
