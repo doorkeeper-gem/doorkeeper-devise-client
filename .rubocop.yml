@@ -3,7 +3,7 @@ inherit_gem:
     - config/rails.yml
 
 AllCops:
-  TargetRubyVersion: 2.5.3
+  TargetRubyVersion: 2.6.4
   TargetRailsVersion: 5.2
 
 Style/FrozenStringLiteralComment: { EnforcedStyle: never }
