@@ -1,7 +1,7 @@
 module OmniAuth
   module Strategies
     class Doorkeeper < OmniAuth::Strategies::OAuth2
-      option :name, :flatstack
+      option :name, :doorkeeper
 
       option :client_options,
              site: ENV["DOORKEEPER_APP_URL"],
