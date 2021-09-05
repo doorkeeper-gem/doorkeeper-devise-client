@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.6.3"
+ruby "2.6.5"
 
 gem "listen"
 gem "puma", "~> 5.4"
@@ -12,6 +12,7 @@ gem "uglifier", ">= 1.3.0"
 
 gem "devise", "~> 4.8"
 gem "omniauth-oauth2", "~> 1.7"
+gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "rollbar"
 
 group :development do
