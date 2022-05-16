@@ -22,7 +22,7 @@ you.
 
 First you need to clone the [repository from GitHub](http://github.com/applicake/doorkeeper-devise-client)
 
-    git clone git://github.com/applicake/doorkeeper-devise-client.git
+    git clone git@github.com:doorkeeper-gem/doorkeeper-devise-client.git
 
 Install all the gems
 
