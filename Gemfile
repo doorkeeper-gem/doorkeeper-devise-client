@@ -11,7 +11,7 @@ gem "sass-rails", "~> 6.0"
 gem "uglifier", ">= 1.3.0"
 
 gem "devise", "~> 4.8"
-gem "omniauth-oauth2", "~> 1.7.1"
+gem "omniauth-oauth2", "~> 1.8.0"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "rollbar"
 
