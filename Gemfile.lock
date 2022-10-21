@@ -181,7 +181,7 @@ GEM
       actionpack (>= 5.0)
       railties (>= 5.0)
     rexml (3.2.5)
-    rollbar (3.3.1)
+    rollbar (3.3.2)
     rubocop (1.36.0)
       json (~> 2.3)
       parallel (~> 1.10)
