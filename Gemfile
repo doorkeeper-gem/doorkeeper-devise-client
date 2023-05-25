@@ -22,7 +22,7 @@ end
 
 group :development, :test do
   gem "pry-byebug"
-  gem "sqlite3", "~> 1.6.3"
+  gem "sqlite3", "~> 1.5.4"
 end
 
 group :production do
