@@ -199,7 +199,7 @@ GEM
       railties (>= 5.2)
     rexml (3.2.8)
       strscan (>= 3.0.9)
-    rollbar (3.5.2)
+    rollbar (3.6.0)
     rubocop (1.50.2)
       json (~> 2.3)
       parallel (~> 1.10)
