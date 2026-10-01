@@ -8,6 +8,8 @@ It uses [rails](http://github.com/rails/rails/), [devise](http://github.com/plat
 and [omniauth](http://github.com/intridea/omniauth) gems. OAuth2
 strategy is build on top of [abstract OAuth2 strategy for OmniAuth](https://github.com/intridea/omniauth-oauth2)
 
+Demo app hosted on [Miget](https://miget.com).
+
 ## About Doorkeeper Gem
 
 For more information [about the gem](https://github.com/applicake/doorkeeper),
