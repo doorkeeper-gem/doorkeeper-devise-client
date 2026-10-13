@@ -130,7 +130,7 @@ GEM
       timeout
     net-smtp (0.5.2)
       net-protocol
-    nio4r (2.7.3)
+    nio4r (2.7.5)
     nokogiri (1.19.4)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
@@ -165,7 +165,7 @@ GEM
     pry-byebug (3.10.1)
       byebug (~> 11.0)
       pry (>= 0.13, < 0.15)
-    puma (6.4.3)
+    puma (7.2.1)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (2.2.24)
@@ -301,7 +301,7 @@ DEPENDENCIES
   omniauth-rails_csrf_protection (~> 1.0)
   pg (~> 1.5)
   pry-byebug
-  puma (~> 6.4)
+  puma (~> 7.2)
   rails (~> 6.1)
   rollbar
   rubocop-rails_config
