@@ -11,7 +11,7 @@ gem "sass-rails", "~> 6.0"
 gem "terser"
 
 gem "devise", "~> 5.0"
-gem "omniauth-oauth2", "~> 1.8.0"
+gem "omniauth-oauth2", "~> 1.9.0"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "rollbar"
 
@@ -26,5 +26,5 @@ group :development, :test do
 end
 
 group :production do
-  gem "pg", "~> 1.5"
+  gem "pg", "~> 1.7"
 end
