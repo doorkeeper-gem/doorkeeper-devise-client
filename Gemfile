@@ -11,7 +11,7 @@ gem "sass-rails", "~> 6.0"
 gem "terser"
 
 gem "devise", "~> 5.0"
-gem "omniauth-oauth2", "~> 1.9.0"
+gem "omniauth-oauth2", "~> 1.10.0"
 gem "omniauth-rails_csrf_protection", "~> 2.0"
 gem "rollbar"
 
