@@ -330,7 +330,7 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.9.6)
+    sqlite3 (2.10.1)
       mini_portile2 (~> 2.8.0)
     strscan (3.1.0)
     terser (1.2.8)
@@ -369,7 +369,7 @@ DEPENDENCIES
   rollbar
   rubocop-rails_config
   sass-rails (~> 6.0)
-  sqlite3 (~> 2.9.6)
+  sqlite3 (~> 2.10.1)
   terser
 
 RUBY VERSION
