@@ -6,11 +6,11 @@ ruby "3.3.12"
 
 gem "listen"
 gem "puma", "~> 8.0"
-gem "rails", "~> 6.1"
+gem "rails", "~> 8.1"
 gem "sass-rails", "~> 6.0"
-gem "uglifier", ">= 1.3.0"
+gem "terser"
 
-gem "devise", "~> 4.9"
+gem "devise", "~> 5.0"
 gem "omniauth-oauth2", "~> 1.9.0"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 gem "rollbar"
@@ -22,7 +22,7 @@ end
 
 group :development, :test do
   gem "pry-byebug"
-  gem "sqlite3", "~> 1.6.9"
+  gem "sqlite3", "~> 2.9.6"
 end
 
 group :production do
