@@ -207,7 +207,7 @@ GEM
     pry-byebug (3.12.0)
       byebug (~> 13.0)
       pry (>= 0.13, < 0.17)
-    puma (8.0.3)
+    puma (8.1.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.8)
@@ -373,7 +373,7 @@ DEPENDENCIES
   omniauth-rails_csrf_protection (~> 2.0)
   pg (~> 1.7)
   pry-byebug
-  puma (~> 8.0)
+  puma (~> 8.1)
   rails (~> 8.1)
   rollbar
   rubocop-rails_config
